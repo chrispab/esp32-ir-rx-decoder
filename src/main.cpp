@@ -1,4 +1,14 @@
-/*
+// wiring
+// devkit1
+// esp32 ---------------------------ir rxer
+// rhs pin 1 - 3v3------------------vcc - pin 2
+// rhs pin 2 -gnd-------------------gnd pin1
+// rhs pin 3 - gpio15---------------data pin3
+
+
+
+
+/*https://github.com/crankyoldgit/IRremoteESP8266/blob/master/examples/IRrecvDumpV3/IRrecvDumpV3.ino
  * IRremoteESP8266: IRrecvDumpV3 - dump details of IR codes with IRrecv
  * An IR detector/demodulator must be connected to the input kRecvPin.
  *
